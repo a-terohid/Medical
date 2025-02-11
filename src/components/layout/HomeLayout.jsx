@@ -6,7 +6,7 @@ const HomeLayout = ({ children }) => {
     return (
         <body>
             <Navbar />
-            <div className="md: pt-[68px] h-96 lg:pt-24 bg-red-700" >{ children }</div>
+            <div className="md: pt-[68px] lg:pt-24" >{ children }</div>
             <Footer />
         </body>
     )
