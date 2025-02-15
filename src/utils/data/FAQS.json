@@ -1,0 +1,36 @@
+{
+    "faqs": [
+      {
+        "question": "Is this platform suitable for small healthcare practices?",
+        "answer": "Yes, our platforms come in various sizes and configurations, making them suitable for practices of all sizes, from small clinics to large hospital systems."
+      },
+      {
+        "question": "What type of support and maintenance is available?",
+        "answer": "We provide comprehensive support and maintenance, including regular software updates, technical assistance, and troubleshooting. Our team is available via email, phone, and live chat to ensure smooth platform operation."
+      },
+      {
+        "question": "Can I track my practice's financial performance?",
+        "answer": "Yes, our platform includes financial tracking tools that help monitor revenue, expenses, and billing efficiency. You can generate reports, analyze trends, and gain insights to optimize financial performance."
+      },
+      {
+        "question": "Can I handle appointment scheduling and reminders?",
+        "answer": "Absolutely! Our platform includes an integrated appointment scheduling system with automated reminders via email or SMS, reducing no-shows and improving patient engagement."
+      },
+      {
+        "question": "Does a medical dashboard integrate with EHR systems?",
+        "answer": "Yes, our platform supports seamless integration with EHR systems and other healthcare software. This ensures efficient data sharing and better patient management."
+      },
+      {
+        "question": "Can I customize a medical dashboard platform to fit my specific practice needs?",
+        "answer": "Yes, our platform offers customization options, allowing you to tailor features, workflows, and data presentation to match your specific practice requirements."
+      },
+      {
+        "question": "Is my patient data secure when using a medical dashboard platform?",
+        "answer": "Yes, we prioritize data security with encryption, HIPAA compliance, and multi-layered authentication to protect patient information from unauthorized access."
+      },
+      {
+        "question": "How can a medical dashboard platform benefit my healthcare practice?",
+        "answer": "A medical dashboard platform enhances efficiency by streamlining appointment scheduling, patient record management, billing, and analytics. It improves patient care, reduces administrative workload, and ensures compliance with industry standards."
+      }
+    ]
+  }

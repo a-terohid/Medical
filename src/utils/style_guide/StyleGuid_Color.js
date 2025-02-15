@@ -1,6 +1,7 @@
 export const styleGuide_colors = {
     "primary": {
         0   : "#FFFFFF",
+        50 : "#ECF3F1",
         100 : "#D7F8E8",
         200 : "#B2F2D8",
         300 : "#82D8BE",
@@ -11,6 +12,7 @@ export const styleGuide_colors = {
         800 : "#0D4049",
         900 : "#082F3C",
         1000 : "#192939",
+        1100: "#224450"
       },
       "Success": {
         100 : "#F5FCD2",
@@ -60,6 +62,7 @@ export const styleGuide_colors = {
         100 : "#EDF1F3",
         200 : "#DCE4E8",
         300 : "#ACB5BB",
+        350 : "#F3F5F7",
         400 : "#6C7278",
         500 : "#1A1C1E",
         600 : "#131619",
