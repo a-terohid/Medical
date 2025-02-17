@@ -1,0 +1,58 @@
+{
+    "testimonials": [
+      {
+        "name": "Lisa Rodriguez",
+        "job": "Practice Administrator",
+        "feedback": "Our clinic has seen a significant improvement in efficiency since implementing this medical dashboard platform.",
+        "image": "/img/testimonials/01.png"
+      },
+      {
+        "name": "Dr. Sarah Martinez",
+        "job": "Family Physician",
+        "feedback": "Our hospital system relies on the data-driven insights provided by this medical dashboard platform.",
+        "image": "/img/testimonials/02.png"
+      },
+      {
+        "name": "Mark Thompson",
+        "job": "Hospital Administrator",
+        "feedback": "The user-friendly interface has reduced the administrative burden, allowing me to spend more time with my patients.",
+        "image": "/img/testimonials/03.png"
+      },
+      {
+        "name": "John Doe",
+        "job": "Medical Director",
+        "feedback": "This platform has streamlined our workflow and significantly improved patient care.",
+        "image": "/img/testimonials/04.png"
+      },
+      {
+        "name": "Jane Smith",
+        "job": "Nurse Practitioner",
+        "feedback": "With this platform, we’ve been able to improve patient outcomes through better data tracking.",
+        "image": "/img/testimonials/05.png"
+      },
+      {
+        "name": "Dr. Emily Johnson",
+        "job": "Surgeon",
+        "feedback": "I can easily access patient data in real-time, which improves my decision-making in the operating room.",
+        "image": "/img/testimonials/06.png"
+      },
+      {
+        "name": "Michael Lee",
+        "job": "Health IT Manager",
+        "feedback": "The platform has made it easier for our team to manage data and share it securely across departments.",
+        "image": "/img/testimonials/07.png"
+      },
+      {
+        "name": "Amanda Green",
+        "job": "Chief Medical Officer",
+        "feedback": "Thanks to this platform, our medical staff spends less time on administrative tasks and more time on patient care.",
+        "image": "/img/testimonials/08.png"
+      },
+      {
+        "name": "David Brown",
+        "job": "Healthcare Consultant",
+        "feedback": "I’ve seen firsthand how this medical dashboard can transform healthcare operations, improving both efficiency and patient satisfaction.",
+        "image": "/img/testimonials/09.png"
+      }
+    ]
+  }
