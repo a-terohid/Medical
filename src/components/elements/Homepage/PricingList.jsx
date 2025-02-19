@@ -5,7 +5,7 @@ import { IoArrowForward } from "react-icons/io5"; // Import arrow icon from reac
 const PricingList = () => {
     return (
         <div className="bg-primary-900"> {/* Background color for the pricing section */}
-            <div className="container py-12 text-primary-0 flex flex-col lg:flex-row gap-y-14 lg:items-center lg:gap-x-28">
+            <div className="container py-14 lg:py-20 text-primary-0 flex flex-col lg:flex-row gap-y-14 lg:items-center lg:gap-x-28">
                 
                 {/* Left Section: Header and description */}
                 <div className="flex-1">

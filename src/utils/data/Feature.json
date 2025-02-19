@@ -1,0 +1,19 @@
+{
+    "feature" : [
+        {
+            "image": "/img/Feature/01.png",
+            "title": "Centralized Patient Records",
+            "description" : "Eliminating the need for physical records and reducing errors."
+        },
+        {
+            "image": "/img/Feature/02.png",
+            "title": "Perfect Data Visualization",
+            "description" : "Data visualization tools like charts and graphs for easy interpretation of trends and insights"
+        },
+        {
+            "image": "/img/Feature/03.png",
+            "title": "Medication and Supply Tracking",
+            "description" : "Help manage medication and supply levels, ensuring timely restocking."
+        }
+    ]
+}

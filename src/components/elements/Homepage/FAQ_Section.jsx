@@ -3,7 +3,7 @@ import { HiPlusSm } from "react-icons/hi";
 
 const FAQ_Section = () => {
     return (
-        <div className=" container py-14">
+        <div className=" container py-14 lg:py-20">
             <div className="flex flex-col justify-center items-center text-center lg:mx-52" >
                 <p className="text-Medium-14 text-primary-800 bg-primary-100 py-1 px-4 rounded-full" >Questions & Answer</p>
                 <h3 className="text-Bold-24 lg:text-Bold-40 mt-2" >Learn more about our platform by user questions</h3>
