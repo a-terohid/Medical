@@ -1,17 +1,11 @@
+import FeaturesPage from '@/template/FeaturesPage';
 import React from 'react';
 
 const page = () => {
     return (
-        <div>
-            features
-            features
-            features
-            features
-            features
-            features
-            features
-            features
-        </div>
+        <>
+            <FeaturesPage />
+        </>
     );
 };
 

@@ -44,9 +44,9 @@ const Testimonials = () => {
                         <p className="text-Regular-14 lg:text-Regular-16">Dive into inspiring success stories that showcase how our platform has empowered healthcare practices, improved efficiency, and elevated patient satisfaction.</p>
                     </div>
                     <div className="lg:flex hidden items-center justify-center gap-x-5 text-primary-0 text-Bold-14">
-                        <button onClick={() => instanceRef.current?.prev()} className={`p-4 ${currentSlide=== 0 ? " border-primary-0" : "bg-primary-600 border-primary-600" } border rounded-full`}> <HiChevronLeft/></button>
+                        <button disabled={currentSlide=== 0 ? true : false} onClick={() => instanceRef.current?.prev()} className={`p-4 ${currentSlide=== 0 ? " border-primary-0" : "bg-primary-600 border-primary-600" } border rounded-full`}> <HiChevronLeft/></button>
                         <p>0{currentSlide+1}<span className=" opacity-50" >/0{totalSlides+1}</span></p>
-                        <button onClick={() => instanceRef.current?.next()} className={`p-4 ${currentSlide=== totalSlides ? " border-primary-0" : "bg-primary-600 border-primary-600" } border  rounded-full`} ><HiChevronRight/></button>
+                        <button disabled={currentSlide=== totalSlides ? true : false} onClick={() => instanceRef.current?.next()} className={`p-4 ${currentSlide=== totalSlides ? " border-primary-0" : "bg-primary-600 border-primary-600" } border  rounded-full`} ><HiChevronRight/></button>
                     </div>
                 </div>
                 <div className="relative mt-10">
@@ -70,9 +70,9 @@ const Testimonials = () => {
                         ))}
                     </div>
                     <div className="mt-10 flex items-center justify-center gap-x-5 text-primary-0 text-Bold-14 lg:hidden">
-                        <button onClick={() => instanceRef.current?.prev()} className={`p-4 ${currentSlide=== 0 ? " border-primary-0" : "bg-primary-600 border-primary-600" } border rounded-full`}> <HiChevronLeft/></button>
+                        <button disabled={currentSlide=== 0 ? true : false} onClick={() => instanceRef.current?.prev()} className={`p-4 ${currentSlide=== 0 ? " border-primary-0" : "bg-primary-600 border-primary-600" } border rounded-full`}> <HiChevronLeft/></button>
                         <p>0{currentSlide+1}<span className=" opacity-50" >/0{totalSlides+1}</span></p>
-                        <button onClick={() => instanceRef.current?.next()} className={`p-4 ${currentSlide=== totalSlides ? " border-primary-0" : "bg-primary-600 border-primary-600" } border  rounded-full`} ><HiChevronRight/></button>
+                        <button disabled={currentSlide=== totalSlides ? true : false} onClick={() => instanceRef.current?.next()} className={`p-4 ${currentSlide=== totalSlides ? " border-primary-0" : "bg-primary-600 border-primary-600" } border  rounded-full`} ><HiChevronRight/></button>
                     </div>
                 </div>
             </div>
