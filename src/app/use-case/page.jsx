@@ -1,18 +1,7 @@
-import React from 'react';
+import UseCase_page from '@/template/UseCase_page';
 
 const page = () => {
-    return (
-        <div>
-            use-case
-            use-case
-            use-case
-            use-case
-            use-case
-            use-case
-            use-case
-            use-case
-        </div>
-    );
+    return ( <UseCase_page/> );
 };
 
 export default page;
