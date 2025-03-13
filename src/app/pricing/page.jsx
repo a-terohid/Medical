@@ -1,18 +1,8 @@
-import React from 'react';
+import Pricing_page from "@/template/Pricing_page";
+
 
 const page = () => {
-    return (
-        <div>
-            pricing
-            pricing
-            pricing
-            pricing
-            pricing
-            pricing
-            pricing
-            pricing
-        </div>
-    );
+    return (<Pricing_page />);
 };
 
 export default page;
