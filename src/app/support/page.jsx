@@ -1,17 +1,8 @@
+import SupportPage from '@/template/SupportPage';
 import React from 'react';
 
 const page = () => {
-    return (
-        <div>
-            support
-            support
-            support
-            support
-            support
-            support
-            support
-        </div>
-    );
+    return (<SupportPage/>);
 };
 
 export default page;
