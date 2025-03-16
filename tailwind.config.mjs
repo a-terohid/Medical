@@ -26,6 +26,7 @@ const config = {
     plugin(({ addUtilities }) => {
       addUtilities(StyleGuid_Text);
     }),
+    require("@tailwindcss/typography")
   ],
 }
 

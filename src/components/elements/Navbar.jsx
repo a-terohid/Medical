@@ -5,7 +5,7 @@ import HamMenue from "@/public/svg/Icon/HamMenue";
 import LogoـRow from "@/public/svg/Logo/LogoـRow";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
     // State to manage the menu open/close state
@@ -20,6 +20,10 @@ const Navbar = () => {
         { name: "Blogs", href: "/blogs" },
         { name: "Support", href: "/support" },
     ];
+
+    useEffect(() => {
+        setIsOpen(false);
+    }, [pathname]);
 
     // Toggle menu handler
     const handler = () => setIsOpen(!isOpen);
@@ -58,9 +62,9 @@ const Navbar = () => {
                 
                 {/* Mobile Navigation Toggle Button */}
                 <div className="lg:hidden">
-                    <p className="w-6" onClick={handler}>
+                    <div className="w-6" onClick={handler}>
                         {isOpen ? <CrossMenue /> : <HamMenue />}
-                    </p>
+                    </div>
                 </div>
             </div>
             

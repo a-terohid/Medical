@@ -2,7 +2,6 @@
 
 import FAQ_Section from '@/elements/Homepage/FAQ_Section';
 import blogs_data from "@/utils/data/blogs.json"
-import Link from "next/link";
 import BlogCard from "@/elements/BlogCard";
 
 const Blogspage = () => {
