@@ -1,16 +1,8 @@
+import Blogspage from '@/template/Blogspage';
 import React from 'react';
 
 const page = () => {
-    return (
-        <div>
-            blogs
-            blogs
-            blogs
-            blogs
-            blogs
-            blogs
-        </div>
-    );
+    return ( <Blogspage/> );
 };
 
 export default page;
