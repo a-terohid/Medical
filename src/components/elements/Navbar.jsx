@@ -51,12 +51,12 @@ const Navbar = () => {
                     
                     {/* Authentication Buttons */}
                     <div className="flex gap-x-3">
-                        <button className="w-32 py-4 px-5 text-primary-500 hover:text-primary-0 hover:bg-primary-500 hover:border-primary-500 border-Secondinary-200 border-2 rounded-[10px]">
+                        <Link href="/login" className="w-32 py-4 px-5 text-primary-500 hover:text-primary-0 hover:bg-primary-500 hover:border-primary-500 border-Secondinary-200 border-2 rounded-[10px] text-center">
                             Log in
-                        </button>
-                        <button className="w-32 py-4 px-5 bg-primary-500 hover:text-primary-500 hover:bg-primary-0 Hover:border-Secondinary-200 hover:border-2 text-primary-0 rounded-[10px]">
+                        </Link>
+                        <Link href="/signup" className="w-32 py-4 px-5 bg-primary-500 hover:text-primary-500 hover:bg-primary-0 Hover:border-Secondinary-200 hover:border-2 text-primary-0 rounded-[10px] text-center">
                             Get Started
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 

@@ -26,7 +26,8 @@ const config = {
     plugin(({ addUtilities }) => {
       addUtilities(StyleGuid_Text);
     }),
-    require("@tailwindcss/typography")
+    require("@tailwindcss/typography"),
+    // "prettier-plugin-tailwindcss"
   ],
 }
 
