@@ -1,6 +1,7 @@
 "use client"
 
-import Blogspage from '@/template/Blogspage';
+const BlogsPage = dynamic(() => import('@/template/Blogspage';), { ssr: false });
+
 import React from 'react';
 
 const page = () => {
