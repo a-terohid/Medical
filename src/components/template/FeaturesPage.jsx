@@ -64,7 +64,7 @@ const FeaturesPage = () => {
                     </ul>
                 </div>
             </div>
-            <div className=" container pt-14 lg:pt-20" >
+            <div className=" container py-14 lg:py-20" >
                 <div className="flex flex-col lg:flex-row lg:gap-x-20 items-end" >
                     <div>
                         <p className="text-Medium-14 text-primary-800 bg-primary-100 py-1 px-4 rounded-full w-fit">Key Features</p>
