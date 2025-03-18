@@ -11,7 +11,7 @@ const HomeLayout = ({ children }) => {
     return (
         <body>
             {!hideLayout && <Navbar />}
-            <div className={ !hideLayout && `md:pt-[68px] lg:pt-24`}>{children}</div>
+            <div className={ !hideLayout && `pt-[68px] lg:pt-24`}>{children}</div>
             {!hideLayout && <Footer />}
         </body>
     );
