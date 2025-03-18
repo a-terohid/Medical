@@ -1,3 +1,5 @@
+"use client"
+
 import Blogspage from '@/template/Blogspage';
 import React from 'react';
 
