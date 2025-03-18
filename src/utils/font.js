@@ -5,27 +5,27 @@ import localFont from "next/font/local";
     variable: '--font-Plus-Jakarta-Sans',
     src: [
         {
-            path: "../../public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf",
+            path: "/public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf",
             weight: "400",
             style: "normal",
         },
         {
-            path: "../../public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf",
+            path: "/public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf",
             weight: "500",
             style: "normal",
         },
         {
-            path: "../../public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf",
+            path: "/public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf",
             weight: "600",
             style: "normal",
         },
         {
-            path: "../../public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf",
+            path: "/public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf",
             weight: "700",
             style: "normal",
         },
         {
-            path: "../../public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf",
+            path: "/public/Fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf",
             weight: "800",
             style: "normal",
         },
