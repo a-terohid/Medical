@@ -22,8 +22,8 @@ const Hero = () => {
                             <button className=" py-4 lg:px-7 bg-primary-500 text-Bold-14 hover:text-primary-500 hover:bg-primary-0 Hover:border-Secondinary-200 hover:border-2 text-primary-0 rounded-[10px]" >Get Started</button>
                         </div>
                         <div className="text-Secondinary-200 text-Regular-12 flex gap-x-5">
-                            <p className="flex gap-x-2 items-start"><FaCircleCheck className="text-primary-300"/>Get free trial for 7 days</p>
-                            <p className="flex gap-x-2 items-start"><FaCircleCheck className="text-primary-300"/>Competitive Pricing plan</p>
+                            <p className="flex gap-x-2 items-start"><FaCircleCheck className="text-primary-300 mt-[2px]"/>Get free trial for 7 days</p>
+                            <p className="flex gap-x-2 items-start"><FaCircleCheck className="text-primary-300 mt-[2px]"/>Competitive Pricing plan</p>
                         </div>
                     </div>
                     <div className=" hidden lg:block w-[170%]">
