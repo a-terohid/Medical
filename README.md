@@ -11,4 +11,4 @@ It includes responsive components and a structured design for better UI/UX.
 - Fully responsive design  
 - Clean and modern UI    
 
-🔗 Live Demo: [Vercel]([url](https://medical-pi-blush.vercel.app/))
+🔗 Live Demo: [Vercel](https://medical-pi-blush.vercel.app/)
