@@ -15,7 +15,7 @@ const Signuppage = () => {
                         <input className="lg:flex-1 px-5 py-4 border border-Secondinary-200 rounded-[10px] focus:outline-none focus:ring-2 focus:ring-primary-500 w-full text-Semibold-14" placeholder="Repeat Password" />
                     </div>
                     <button className='bg-pr bg-primary-500 my-6 lg:my-8 py-4 rounded-xl w-full text-Bold-14 text-primary-0'>Register</button>
-                    <p className='w-full text-Medium-14 text-Secondinary-400 lg:text-Medium-16 text-center'>Already have an account?  <Link href="signup" className='text-primary-400 text-Semibold-14 hover:text-primary-600'>Login Here</Link></p>
+                    <p className='w-full text-Medium-14 text-Secondinary-400 lg:text-Medium-16 text-center'>Already have an account?  <Link href="/login" className='text-primary-400 text-Semibold-14 hover:text-primary-600'>Login Here</Link></p>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-y-3 text-Medium-12 lg:text-Semibold-12'>
                     <p className='text-Secondinary-400'>© 2022 Wecare. All rights reserved.</p>
