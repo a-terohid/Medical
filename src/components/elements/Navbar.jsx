@@ -71,17 +71,28 @@ const Navbar = () => {
             {/* Mobile Navigation Menu */}
             <div>
                 {isOpen ? (
-                    <div className="container">
-                        <ul className="flex flex-col gap-y-5 mt-4 mb-8">
-                            {navItems.map((item) => (
-                                <li key={item.href}>
-                                    <Link href={item.href} 
-                                        className={`py-3 px-4 ${ pathname === item.href ? "text-primary-500 border rounded-lg border-primary-500" : "text-Secondinary-500"}`}> 
-                                        {item.name}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
+                    <div className="container mt-4 mb-8">
+                        <div>
+                            <ul className="flex flex-col gap-y-5 ">
+                                {navItems.map((item) => (
+                                    <li key={item.href}>
+                                        <Link href={item.href} 
+                                            className={`py-3 px-4 ${ pathname === item.href ? "text-primary-500 border rounded-lg border-primary-500" : "text-Secondinary-500"}`}> 
+                                            {item.name}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                            <div className="flex gap-x-3 text-Medium-12 items-center justify-center mt-7">
+                                <Link href="/login" className="w-32 py-4 px-5 text-primary-500 hover:text-primary-0 hover:bg-primary-500 hover:border-primary-500 border-Secondinary-200 border-2 rounded-[10px] text-center">
+                                    Log in
+                                </Link>
+                                <Link href="/signup" className="w-32 py-4 px-5 bg-primary-500 hover:text-primary-500 hover:bg-primary-0 Hover:border-Secondinary-200 hover:border-2 text-primary-0 rounded-[10px] text-center">
+                                    Get Started
+                                </Link>
+                            </div>
+                        </div>
+                        <div onClick={handler} className="bg-Secondinary-500 mt-8 opacity-80 h-full w-full absolute left-0 "></div>
                     </div>
                 ) : null}
             </div>
